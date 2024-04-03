@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    transition: all .2s linear;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: linear-gradient(to right,#fc0505,#444);
+}
+
+.main{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main .box{
+    text-align: center;
+    padding: 10px;
+}
+
+.main .box button{
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    margin: 20px;
+}
+
+.main .box button:hover{
+    box-shadow: 3px 3px 2px 1px #656464;
+}
+
+.main .box #mybtn{
+    color: #fff;
+    background-color: blue;
+    font-size: 20px;
+}
+
+.main .box #mybtn2{
+    color: #fff;
+    background-color: #8a8a04;
+    font-size: 20px;
+}
+
+.main .box p{
+    font-size: 20px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.main .box .code{
+    padding: 20px;
+    margin: 10px;
+    font-size: 20px;
+    border: 1px solid white;
+    border-left: 5px solid white;
+    border-radius: 5px;
+}
